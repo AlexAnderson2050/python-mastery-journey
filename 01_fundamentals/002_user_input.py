@@ -1,3 +1,3 @@
-# Get username and greet him/her.
-userName = input("What is you name? ")
+# Prompt the user for their name and display a personalized greeting.
+userName = input("What is your name? ")
 print(f"Hello, {userName}!  Welcome to Python programming.")
