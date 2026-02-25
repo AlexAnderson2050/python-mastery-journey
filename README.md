@@ -5,12 +5,13 @@ Structured Python mastery curriculum (001–140) focused on clean code, discipli
 This repository documents my structured 12-month Python mastery program.
 
 ## Curriculum Structure
-- 001–040: Foundations
-- 041–060: Functions & Error Handling
-- 061–080: Files & Modules
-- 081–100: OOP
-- 101–120: Intermediate Python
-- 121–140: Projects
+- 001–020: PYTHON FUNDAMENTALS (🟢 BEGINNER)
+- 021–040: STRINGS & DATA STRUCTURES (🔵 BEGINNER+)
+- 041–060: FUNCTIONS & SCOPE (🟡 INTERMEDIATE)
+- 061–080: FILES & MODULES (🟠 UPPER-INTERMEDIATE)
+- 081–100: OBJECT-ORIENTED PROGRAMMING (🟠→🔴)
+- 101–120: ADVANCED / PROFESSIONAL PYTHON (🔴 ADVANCED)
+- 121–140: PRACTICAL PROJECTS (MIXED DIFFICULTY)
 
 ## Goals
 - Write clean, maintainable Python code
