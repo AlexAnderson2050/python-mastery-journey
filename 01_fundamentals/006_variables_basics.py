@@ -1,3 +1,4 @@
+# 006_variables_basics.py
 # Demonstrate the basics of variables in Python.
 
 print("Variables Basics Example")
