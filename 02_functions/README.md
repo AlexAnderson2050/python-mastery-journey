@@ -1,4 +1,4 @@
-# 02 — Functions & Scope (041–060)
+# 02 — Functions & Scope (021–040)
 
 ## Purpose
 Develop modular thinking and clean function design.

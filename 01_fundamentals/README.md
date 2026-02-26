@@ -1,4 +1,4 @@
-# 01 — Fundamentals (001–040)
+# 01 — Fundamentals (001–020)
 
 ## Purpose
 Build strong core Python foundations with emphasis on clarity, syntax fluency, and control flow.
