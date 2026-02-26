@@ -66,7 +66,13 @@ user_input = input("Enter something: ")
 print("You entered:", user_input)
 print("Its data type is:", type(user_input))
 
-# Summary:
-# - Variables store values
-# - Values have types
-# - type() reveals the data type
+# --------------------------------------------------
+# Summary
+# --------------------------------------------------
+# - Defined what a data type is in Python.
+# - Demonstrated numeric types: int and float.
+# - Demonstrated text type: str.
+# - Demonstrated boolean type: bool.
+# - Previewed explicit type conversion using int().
+# - Showed that input() always returns a string.
+# - Reinforced understanding by printing values together with their types.

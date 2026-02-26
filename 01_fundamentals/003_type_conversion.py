@@ -18,3 +18,12 @@ user_age = int(input(f"How old are you, {user_name}? "))
 next_year_age = user_age + 1
 
 print(f"{user_name}, you will be {next_year_age} years old next year!")
+
+# --------------------------------------------------
+# Summary
+# --------------------------------------------------
+# - Collected multiple inputs from the user.
+# - Converted string input to integer using int().
+# - Performed arithmetic on user-provided data.
+# - Stored computed results in a new variable.
+# - Reinforced the importance of data types in calculations.

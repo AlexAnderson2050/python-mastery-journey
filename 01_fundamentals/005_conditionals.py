@@ -37,3 +37,12 @@ elif student_score >= 65:
     print("Grade: D")
 else:
     print("Grade: F")
+
+# --------------------------------------------------
+# Summary
+# --------------------------------------------------
+# - Collected numeric input using input().
+# - Used try / except to handle invalid integer input.
+# - Applied a guard clause to validate score range (0–100).
+# - Used if / elif / else for multi-branch decision making.
+# - Demonstrated clean program flow with early exits.

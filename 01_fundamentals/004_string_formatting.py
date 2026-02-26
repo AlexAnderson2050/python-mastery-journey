@@ -63,3 +63,15 @@ print("\nCode:")
 print("\tprint(\"%-10s | %8.2f\" % (student_name, student_score))")
 print("\nOutput:")
 print("%-10s | %8.2f" % (student_name, student_score))
+
+# --------------------------------------------------
+# Summary
+# --------------------------------------------------
+# - Demonstrated three string formatting techniques:
+#     1. f-strings (modern and recommended approach)
+#     2. str.format() method
+#     3. Percent (%) formatting (legacy style)
+# - Applied numeric precision control using :.2f.
+# - Practiced string alignment using < and > specifiers.
+# - Compared readability and clarity between formatting styles.
+# - Reinforced why f-strings are preferred in modern Python.

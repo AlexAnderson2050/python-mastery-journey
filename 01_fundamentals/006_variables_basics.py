@@ -65,3 +65,13 @@ calculated_age = current_year - birth_year
 print()
 print("Hello", user_name + "!")
 print("You are approximately", calculated_age, "years old.")
+
+# --------------------------------------------------
+# Summary
+# --------------------------------------------------
+# - Demonstrated variable creation and basic data types (str, int, float, bool).
+# - Showed variable reassignment.
+# - Illustrated Python's dynamic typing (type can change at runtime).
+# - Used multiple assignment in a single line.
+# - Combined variables with user input and basic arithmetic.
+# - Reinforced how variables store and update data during execution.

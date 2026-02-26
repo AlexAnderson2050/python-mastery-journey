@@ -15,3 +15,12 @@ user_name = input("What is your name? ")
 # --------------------------------------------------
 
 print(f"Hello, {user_name}! Welcome to Python programming.")
+
+# --------------------------------------------------
+# Summary
+# --------------------------------------------------
+# - Introduced the input() function to collect data from the user.
+# - Stored user input inside a variable.
+# - Demonstrated basic variable assignment.
+# - Used f-string formatting to create dynamic output.
+# - Reinforced the idea that programs can interact with users.
