@@ -23,7 +23,8 @@ Learning core building blocks of Python programming.
 - Comparison Operators
 - Logical Operators
 - Basic Input Validation
-- Intro to Loops
+- If Statements (structured)
+- While Loops
 
 ### Goal:
 Build a strong mental model of how Python executes code.
