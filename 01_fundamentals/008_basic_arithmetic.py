@@ -1,66 +1,61 @@
 # 008_basic_arithmetic.py
-# Demonstrate basic arithmetic operations in Python.
+# Demonstrate arithmetic operations with validation and defensive programming.
 
 print("Basic Arithmetic Operations")
 print()
 
 # --------------------------------------------------
-# 1. Basic Operators
+# 1. Collect User Input (With Validation)
 # --------------------------------------------------
 
-a = 10
-b = 3
+try:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+except ValueError:
+    print("Error: Please enter valid numeric values.")
+    exit()
 
-print("Given values:")
-print("a =", a)
-print("b =", b)
-print()
-
-print("Addition:", a + b)
-print("Subtraction:", a - b)
-print("Multiplication:", a * b)
-print("Division (float):", a / b)
-print("Floor Division:", a // b)
-print("Modulus (remainder):", a % b)
-print("Exponentiation:", a ** b)
 print()
 
 # --------------------------------------------------
-# 2. Order of Operations
+# 2. Perform Arithmetic Operations
 # --------------------------------------------------
 
-result = 2 + 3 * 4
-print("2 + 3 * 4 =", result)
-
-result_with_parentheses = (2 + 3) * 4
-print("(2 + 3) * 4 =", result_with_parentheses)
-print()
-
-# --------------------------------------------------
-# 3. User Interaction Example
-# --------------------------------------------------
-
-print("Now it's your turn.")
-
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-
-print()
 print("Results:")
-print("Sum:", num1 + num2)
-print("Difference:", num1 - num2)
-print("Product:", num1 * num2)
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
 
+# Defensive check for division
 if num2 != 0:
-    print("Quotient:", num1 / num2)
+    print("Division:", num1 / num2)
+    print("Floor Division:", num1 // num2)
+    print("Modulus:", num1 % num2)
 else:
-    print("Cannot divide by zero.")
+    print("Division: Cannot divide by zero.")
+    print("Floor Division: Undefined.")
+    print("Modulus: Undefined.")
+
+print("Exponentiation:", num1 ** num2)
+print()
+
+# --------------------------------------------------
+# 3. Order of Operations Demonstration
+# --------------------------------------------------
+
+example1 = 2 + 3 * 4
+example2 = (2 + 3) * 4
+
+print("Order of Operations Example:")
+print("2 + 3 * 4 =", example1)
+print("(2 + 3) * 4 =", example2)
 
 # --------------------------------------------------
 # Summary
 # --------------------------------------------------
-# - Demonstrated all core arithmetic operators (+, -, *, /, //, %, **).
-# - Explained difference between division and floor division.
-# - Demonstrated order of operations (PEMDAS principle).
 # - Used float() for flexible numeric input.
-# - Included safe division check to prevent division by zero.
+# - Applied try/except for input validation.
+# - Prevented division by zero using a guard clause.
+# - Demonstrated all primary arithmetic operators.
+# - Illustrated order of operations using parentheses.
+# - Practiced defensive programming principles.
